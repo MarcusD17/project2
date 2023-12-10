@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/darkmode.css">
+  <script src="/sidebar_script.js"></script>
+  <script src="/darkmode.js"></script>
+  <title>Your Website</title>
+</head>
+
+<body>
+
+  <!-- Top Navbar -->
+  <nav class="top-navbar">
+    <div class="container">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="documentation" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="/views/about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">By Marcus Dawodu</a></li>
+        <!-- Add more nav items with links to different pages if needed -->
+        <li class="nav-item">
+          <button class="dark-mode-toggle" onclick="toggleDarkMode()">
+            <img src="/images/moon.png" alt="Dark Mode Toggle">
+          </button>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <!-- Left Sidebar -->
+  <nav class="sidebar">
+    <ul>
+      <li>
+        <a href="/documentation" class="nav-link">Introduction</a>
+      </li>
+      <li class="collapsible">
+        <a href="/sidebar/configuration" class="nav-link">Configuration</a>
+        <ul class="nested">
+          <li><a href="/sidebar/subsection1" class="nav-link">Subsection 1</a></li>
+          <li><a href="/sidebar/subsection2" class="nav-link">Subsection 2</a></li>
+        </ul>
+      </li>
+      <li class="collapsible">
+        <a href="/sidebar/accessibility" class="nav-link">Accessibility</a>
+        <ul class="nested">
+          <li><a href="/sidebar/subsection1" class="nav-link">Subsection 1</a></li>
+          <li><a href="/sidebar/subsection2" class="nav-link">Subsection 2</a></li>
+        </ul>
+      </li>
+      <li class="collapsible">
+        <a href="/sidebar/databases" class="nav-link">Databases</a>
+        <ul class="nested">
+          <li><a href="/sidebar/subsection1" class="nav-link">Subsection 1</a></li>
+          <li><a href="/sidebar/subsection2" class="nav-link">Subsection 2</a></li>
+        </ul>
+      </li>
+      <!-- Add more nav items with links and collapsible sections if needed -->
+    </ul>
+  </nav>
+
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h2>Accessibility Matters with fried.js</h2>
+    <p>At fried.js, we believe in making the web a more inclusive space. Accessibility is not just a feature; it's a fundamental principle embedded in every aspect of our whimsical JavaScript library.</p>
+  
+    <p>Our commitment to accessibility extends beyond the ordinary. fried.js empowers developers to create web experiences that are not only entertaining but also considerate of diverse user needs. With built-in features and best practices, we ensure that your projects are accessible to everyone.</p>
+  
+    <h3>Key Accessibility Features:</h3>
+    <ul>
+      <li><strong>Keyboard Navigation:</strong> fried.js prioritizes seamless navigation using keyboard controls, ensuring users with motor disabilities can effortlessly explore your creative content.</li>
+      <li><strong>Screen Reader Compatibility:</strong> We've optimized fried.js for screen readers, making your web projects accessible to individuals with visual impairments.</li>
+      <li><strong>Contrast and Color Choices:</strong> Our library encourages thoughtful design, promoting sufficient contrast and customizable color choices to enhance readability for users with low vision.</li>
+      <li><strong>Focus Indicators:</strong> fried.js automatically provides clear focus indicators, aiding users who rely on keyboard navigation or assistive technologies.</li>
+      <li><strong>ARIA Roles and Attributes:</strong> We integrate Accessible Rich Internet Applications (ARIA) roles and attributes to improve the semantics of your content, making it more understandable and navigable.</li>
+    </ul>
+  
+    <p>Join us in fostering a web environment that celebrates diversity and inclusivity. With fried.js, accessibility is not an afterthought but an integral part of the magical journey we embark upon in the world of web development.</p>
+  
+  </div>
+</body>
+</html>
