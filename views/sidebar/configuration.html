@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/darkmode.css">
+  <script src="/sidebar_script.js"></script>
+  <script src="/darkmode.js"></script>
+  <title>Your Website</title>
+</head>
+
+<body>
+
+  <!-- Top Navbar -->
+  <nav class="top-navbar">
+    <div class="container">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="documentation" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="/views/about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Download</a></li>
+        <!-- Add more nav items with links to different pages if needed -->
+        <li class="nav-item">
+          <button class="dark-mode-toggle" onclick="toggleDarkMode()">
+            <img src="/images/moon.png" alt="Dark Mode Toggle">
+          </button>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <!-- Left Sidebar -->
+  <nav class="sidebar">
+    <ul>
+      <li>
+        <a href="/documentation" class="nav-link">Introduction</a>
+      </li>
+      <li class="collapsible">
+        <a href="/sidebar/configuration" class="nav-link">Configuration</a>
+        <ul class="nested">
+          <li><a href="/sidebar/subsection1" class="nav-link">Subsection 1</a></li>
+          <li><a href="/sidebar/subsection2" class="nav-link">Subsection 2</a></li>
+        </ul>
+      </li>
+      <li class="collapsible">
+        <a href="/sidebar/accessibility" class="nav-link">Accessibility</a>
+        <ul class="nested">
+          <li><a href="/sidebar/subsection1" class="nav-link">Subsection 1</a></li>
+          <li><a href="/sidebar/subsection2" class="nav-link">Subsection 2</a></li>
+        </ul>
+      </li>
+      <li class="collapsible">
+        <a href="/sidebar/databases" class="nav-link">Databases</a>
+        <ul class="nested">
+          <li><a href="/sidebar/subsection1" class="nav-link">Subsection 1</a></li>
+          <li><a href="/sidebar/subsection2" class="nav-link">Subsection 2</a></li>
+        </ul>
+      </li>
+      <!-- Add more nav items with links and collapsible sections if needed -->
+    </ul>
+  </nav>
+
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Content for each page goes here -->
+    <h1>Setting Up fried.js: A Step-by-Step Guide</h1>
+
+    <h2>Introduction</h2>
+    <p>Welcome to the step-by-step guide on setting up a fictional JavaScript file called fried.js. This file is designed to add a touch of creativity and humor to your web projects. Follow these simple instructions to integrate fried.js into your project and enjoy the quirky functionalities it brings.</p>
+  
+    <h2>Prerequisites</h2>
+    <p>Before you begin, ensure that you have the following:</p>
+    <ul>
+      <li>A text editor (e.g., Visual Studio Code, Sublime Text, or Notepad++)</li>
+      <li>Basic knowledge of HTML, CSS, and JavaScript</li>
+      <li>A sense of humor and a love for fried concepts</li>
+    </ul>
+  
+    <h2>Steps</h2>
+  
+    <h3>1. Create the fried.js File</h3>
+    <p>Start by creating a new file named fried.jsin your project directory. Open your text editor and save the file with the ".js" extension.</p>
+    <code>
+    <pre>// fried.js
+
+  // Welcome to fried.js
+  console.log("Get ready for some fried creativity!");
+    </code></pre>
+  
+    <h3>2. Link fried.js in Your HTML</h3>
+    <p>In the HTML file where you want to use fried.js, include the following script tag within the &lt;head&gt; or before the closing &lt;/body&gt; tag.</p>
+    <code>
+    <pre>&lt;!-- index.html --&gt;
+
+  &lt;!DOCTYPE html&gt;
+  &lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title>Your Awesome Project&lt;/title&gt;
+    &lt;script src="fried.js"&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;!-- Your HTML content goes here --&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
+    </code></pre>
+  
+    <h3>3. Test It Out</h3>
+    <p>Open your HTML file in a web browser, and check the console (you can access it in the developer tools) for the "Get ready for some fried creativity!" message. Congratulations, you've successfully integrated <code>fried.js</code> into your project!</p>
+  
+    <h2>Additional Features (Optional)</h2>
+    <p>Feel free to get creative with fried.js by adding humorous functions, quirky animations, or anything else that brings a smile to your face. Remember, the goal is to inject a bit of fun into your web development experience.</p>
+  
+    <h2>Conclusion</h2>
+    <p>With fried.js now part of your project, get ready for a unique and amusing coding journey. Embrace the fried side of creativity and make your web projects stand out with a touch of humor!</p>
+  
+    <p>Happy coding and enjoy the fried goodness of fried.js! 🍟🎉</p>
+  
+  </div>
+
+</body>
+</html>

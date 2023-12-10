@@ -1,0 +1,30 @@
+body {
+    background-color: #ffffff;
+    color: #333333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .no-transition {
+    transition: none !important;
+  }
+  
+  body.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+
+  .dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    top: 5px;
+    border: none;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0);    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dark-mode-toggle img {
+    width: 30px; /* Adjust the width of the image */
+    height: auto; /* Maintain the aspect ratio of the image */
+  }

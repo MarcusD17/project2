@@ -1,0 +1,124 @@
+body, h1, h2, p, .sidebar a {
+  font-family: 'Calibri', 'Arial', sans-serif;
+}
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #343a40;
+  color: #ffffff;
+  padding-top: 5px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin-top: 100px; /* Adjust this value to set the initial distance from the top */
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 8px 20px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #007bff;
+}
+
+.sidebar .collapsible {
+  cursor: pointer;
+  transition: color 0.3s; /* Add transition for color change */
+}
+
+.sidebar .nested {
+  display: none;
+  opacity: 0; /* Initial opacity set to 0 */
+  padding-left: 20px; /* Adjust the padding as needed */
+  margin-top: 10px; /* Adjust this value to set the distance from the parent item */
+  transition: opacity 0.5s ease-in-out; /* Add transition for opacity change */
+}
+
+.sidebar .active {
+  display: block;
+  opacity: 1; /* Show the nested list with full opacity */
+}
+
+/* Top Navbar styles */
+.top-navbar {
+  background-color: #6c8daf;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+  margin-top: -10px;
+  margin-right: -20px;
+}
+
+.top-navbar .navbar-brand,
+.top-navbar .nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.top-navbar .navbar-brand:hover,
+.top-navbar .nav-link:hover {
+  color: #007bff;
+}
+
+.top-navbar .navbar-nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center; /* Center the nav links */
+  padding: 10px;
+}
+
+.top-navbar .nav-item {
+  margin-right: 5px; /* Adjust this value to control the spacing */
+}
+
+.top-navbar .nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s;
+  padding: 20px;
+}
+
+.top-navbar .nav-link:hover {
+  color: #007bff;
+}
+
+/* Main Content styles */
+
+.main-content {
+  margin-top: 0px; /* Adjust this value based on the height of your fixed top navbar */
+  margin-left: 200px; /* Adjust this value based on the width of your left sidebar */
+  padding: 20px;
+}
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: auto;
+}
+code {
+  color: #333;
+}
