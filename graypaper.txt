@@ -1,0 +1,21 @@
+1. Utilizes Express.js to create modular routes for different sections of the documentation, promoting easy navigation and content organization.
+Dark Mode:
+
+2.Implements a dark mode feature to enhance user experience and accommodate diverse user preferences.
+Static File Serving:
+
+3.Uses Express.js to serve static files, such as stylesheets and images, ensuring efficient and rapid loading of resources.
+
+4.Implements a responsive design using media queries, ensuring optimal viewing experiences across various devices.
+
+5.Utilizes Express.js for handling server-side logic, routing, and middleware functions, ensuring a robust and efficient backend architecture.
+
+6.Redirects the root path ('/') to the documentation page, ensuring a clear entry point for users and simplifying the overall user journey.
+
+7.Establishes a public directory for serving static files, promoting a clean project structure and making it straightforward to manage assets.
+
+8.Implements Express.js to listen for incoming HTTP requests.
+
+9.Implements a button-based dark mode toggle feature, enhancing accessibility for users who prefer different visual modes.
+
+10. Dynamically loads the dark mode stylesheet based on user preferences. This allows users to experience their preferred mode without unnecessary resource loading, optimizing performance.
